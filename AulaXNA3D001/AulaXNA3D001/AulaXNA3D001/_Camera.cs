@@ -37,7 +37,7 @@ namespace AulaXNA3D001
 
             this.projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4,
                                                                   screen.GetWidth()/(float)screen.GetHeight(),
-                                                                  0.0000001f,
+                                                                  0.001f,
                                                                   1000);
         }
 
